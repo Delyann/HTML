@@ -1,0 +1,39 @@
+* {padding:0; margin:0;}
+
+body ,html{ height:100%; overflow:hidden;}
+
+.pageHolder { 
+	width: 50%;
+	height:90%;
+	overflow:hidden;
+	position: relative;
+	top:5%;
+	margin: 0 auto;
+	border: 1px solid #CCC;
+}
+
+.page {
+    height:90%;
+	overflow:hidden;
+	overflow-y: auto;
+	}
+	
+
+
+.buttons {
+    width: 100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index: 20;
+	background: #FFF;
+	padding: 1em;
+	border-top: 1px solid #CCC;
+	}
+	
+.button {display: inline-block; padding: 0.5em 1em; background:orange; color:#FFF; border-radius: 10px; }
+
+
+
+
+

@@ -1,0 +1,28 @@
+
+
+.photos ul {
+	padding:0;
+	margin: 0;
+}
+.photos ul li {
+	display: block; 
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.photos ul li a {
+	display: block; 
+	padding: 5px;
+	border: 1px solid #050;
+	background-color: #629665;
+	}
+
+.photos ul li a img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	}
+
+.photos ul li a:hover {
+	background-color: #050; 
+	}
